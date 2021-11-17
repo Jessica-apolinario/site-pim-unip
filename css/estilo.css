@@ -1,0 +1,211 @@
+*{
+    text-decoration: none;
+
+}
+body {
+  background-image: url(../imagens/Fundo\ Contra\ capa\ -\ Sem\ gradiente.jpg);
+  background-size: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, regular, sans-serif;
+  margin: 0px;
+ 
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: green;
+}
+
+
+.menu {
+  margin-top: 20px;
+  background-color: rgba(14, 0, 0, 0.384);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 100%;
+}
+
+menu a {
+  color: white;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+.img {
+  float: left;
+}
+
+main {
+  margin: 5px;
+}
+
+.completo-contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 77vh;
+}
+
+.container_contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  height: 85%;
+}
+
+.item {
+  color: white;
+  width: 35%;
+  height: 50%;
+  border-radius: 35px;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.item_contato {
+  display: flex;
+}
+
+.item_contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item_contato img {
+  width: 35%;
+  height: 55%;
+}
+
+.item_contato div {
+  font-size: 0.6em;
+  text-align: center;
+}
+.item_contato div span {
+  font-size: 2em;
+}
+.item_form form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+form input,
+label {
+  margin-top: 3px;
+}
+form label {
+  font-size: small;
+}
+
+form input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  width: 50%;
+  border-radius: 5px;
+}
+.btn-submit {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CSS Pagina Personagens*/
+
+.main_personagens {
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item_personagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(196, 196, 196, 0.6);
+  border-radius: 3%;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.figura{
+    width: 300px;
+    
+}
+
+/*CSS Pagina Carometro*/
+
+.main_carometro{
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section_carometro{
+  width: 15%;
+  text-align: center;
+}
+
+.section_carometro img{
+  width: 100%;
+}
+
+.section_carometro p{
+  font-weight: 900;
+  font-size: medium;
+}
+
+.section_carometro div{
+  width: 97%;
+  height: 100px;
+  background-color: rgba(196, 196, 196, 0.6);
+  border-radius: 3%;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.section_carometro h2{
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.rodape{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  position: relative;
+  bottom: 0;
+  background-color: rgba(14, 0, 0, 0.384);  
+  color: white;
+}
+.rodape div{
+  margin: 0 25px;
+}
+
+.rodape img{
+  margin: 0 15px;
+}
+
+
