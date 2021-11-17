@@ -2,6 +2,8 @@
     text-decoration: none;
 
 }
+
+
 body {
   background-image: url(../imagens/Fundo\ Contra\ capa\ -\ Sem\ gradiente.jpg);
   background-size: 100%;
@@ -9,15 +11,13 @@ body {
   margin: 0px;
  
 }
-
-a:visited{
-    color: white;
+a{
+  color: white;
 }
 
 a:hover{
     color: green;
 }
-
 
 .menu {
   margin-top: 20px;
@@ -29,21 +29,11 @@ a:hover{
 }
 
 menu a {
-  color: white;
   vertical-align: middle;
   text-align: left;
 }
 
-
-.img {
-  float: left;
-}
-
-main {
-  margin: 5px;
-}
-
-.completo-contatos {
+.contatos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,9 +189,6 @@ form input[type="submit"] {
   bottom: 0;
   background-color: rgba(14, 0, 0, 0.384);  
   color: white;
-}
-.rodape div{
-  margin: 0 25px;
 }
 
 .rodape img{
